@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="hue.css">
+    <title>Hue-Controller</title>
+</head>
+<body>
+    <div class="top">
+        <div class="medium">
+            <h1><font color="black">Hue Controller</h1>
+        </div>
+    </div>
+
+    <!--
+    <div class="wrapper">
+        <div class="grid-item">Hue Controller 1</div>
+        <div class="grid-item">Hue Controller 2</div>
+        <div class="grid-item">Hue Controller 3</div>
+    </div>
+    -->
+    
+    <div>
+        <div class="title">Hue Controller 1</div>
+        <div>
+            <form action="/hue_controller.html" method="get">
+                <div>
+                    <label for="power">Power:</label>
+                    <input type="checkbox" name="on1" value="True"/>
+                    <font>On</font>
+                    <input type="checkbox" name="off1" value="False"/>
+                    <font>Off</font>
+                </div>
+                <div>
+                    <label for="bright">Brightness:</label>
+                    <input type="range" id="start" name="brightness" min="0" max="254" />
+                </div>
+                <div>
+                    <label for="x">X: &nbsp0</label>
+                    <input type="text" id="x" name ="x" value=""/>1
+                </div>
+                <div>
+                    <label for="y">Y: &nbsp0</label>
+                    <input type="text" id="y" name="y" value=""/>1
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <div class="title">Hue Controller 2</div>
+        <div>
+            <form action="/hue_controller.html" method="get">
+                <div>
+                    <label for="power">Power:</label>
+                    <input type="checkbox" name="on2" value="True"/>
+                    <font>On</font>
+                    <input type="checkbox" name="off2" value="False"/>
+                    <font>Off</font>
+                </div>
+                <div>
+                    <label for="bright">Brightness:</label>
+                    <input type="range" id="start" name="brightness" min="0" max="254" />
+                </div>
+                <div>
+                    <label for="x">X: &nbsp0</label>
+                    <input type="text" id="x" name="x" value="" />1
+                </div>
+                <div>
+                    <label for="y">Y: &nbsp0</label>
+                    <input type="text" id="y" name="y" value="" />1
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <div class="title">Hue Controller 3</div>
+        <div>
+            <form action="/hue_controller.html" method="get">
+                <div>
+                    <label for="power">Power:</label>
+                    <input type="checkbox" name="on3" value="True"/>
+                    <font>On</font>
+                    <input type="checkbox" name="off3" value="False"/>
+                    <font>Off</font>
+                </div>
+                <div>
+                    <label for="bright">Brightness:</label>
+                    <input type="range" id="start" name="brightness" min="0" max="254" />
+                </div>
+                <div>
+                    <label for="x">X: &nbsp0</label>
+                    <input type="text" id="x" name="x" value=""/>1
+                </div>
+                <div>
+                    <label for="y">Y: &nbsp0</label>
+                    <input type="text" id="y" name="y" value=""/>1
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

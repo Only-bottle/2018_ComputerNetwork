@@ -1,0 +1,49 @@
+.top {
+    height: 150px;
+    background-color: gray;
+}
+
+.medium {
+    height: 150px;
+    width: 1100px;
+    background-color: aquamarine;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 30px 0px;
+    padding: 10px;
+    background-color: gainsboro;
+}
+
+.grid-item {
+    background-color: aquamarine;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    margin-right: 70px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 80px 80px;
+    margin: 30px 280px;
+    padding: 0px 10px;
+    margin-right: 30px;
+}
+
+

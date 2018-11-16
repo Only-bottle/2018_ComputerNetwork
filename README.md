@@ -7,3 +7,5 @@ Chungnam National University 2018 Fall Semester ComputerNetwork Lecture.
 4. Chatting
 5. Mail
 6. Web Performance Test
+7. Selenium
+8. Hue
